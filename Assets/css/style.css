@@ -1,0 +1,81 @@
+body {
+    background-image: url("../images/background/herringbone.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+
+.container {
+    background-color: #ffffff;
+    color: #777777;
+}
+
+/*Navigation*/
+a.navbar-brand {
+    background: #4aaaa5;
+    text-align: center;
+    margin-bottom: 0;
+   
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin-left: -1px;
+}
+
+a.nav-link{
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: .25em 0;
+    padding: 0 1em;
+    text-align: center;
+    border-left: 1px solid #ccc;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+#nav-heading {
+    color: #ffffff;
+}
+
+#nav-back {
+    background-color: #ffffff;
+    border-bottom: 3px solid #dddddd;
+    padding-bottom: 0;
+    Margin-bottom: 1%;
+}
+
+#nav-container {
+    margin-bottom: 0;
+}
+
+
+/*Content*/
+h1.col-12 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+    border-bottom: 2px solid #cccccc;
+    font-size: 26px;
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+}
+
+div.content-1 {
+    border: 1px solid #dddddd;
+}
+
+
+
+/*Footer*/
+.footer-sticky {
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+    color: #ffffff;
+    font-size: .7em;
+    text-align: center;
+}

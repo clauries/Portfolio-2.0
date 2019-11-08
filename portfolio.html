@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+
     <title>Laurie Schroeder Portfolio</title>
 
     <!--Reset styles-->
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
     <!--Bootstrap CSS-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!--General stylesheet-->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <!--Page-specific stylesheet-->
-    <link rel="stylesheet" type="text/css" href="assets/css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/portfolio.css" />
     <!--Font Awesome Kit-->
     <script src="https://kit.fontawesome.com/c8926dbcdf.js" crossorigin="anonymous"></script>
 </head>
@@ -25,14 +27,16 @@
         <div class="container" id="nav-container">
             <a class="navbar-brand col-2" id="nav-heading" href="index.html">Laurie Schroeder</a>
             <div class="col-7"></div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="nav-links">
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <ul class="nav">
                         <li class="nav-item">
-                            <a class="nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
+                            <a class="nav-link active" href="index.html">About <span
+                                    class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -45,57 +49,70 @@
             </div>
         </div>
     </nav>
-        
-    <div class="container">
-        
-            <div>
-                    <h1 class="header-content">Portfolio</h1>
+
+    <div class="container" id="containerContent">
+
+        <div class="row">
+            <h1 class="col-12" id="content-heading">Portfolio</h1>
+        </div>
+
+        <div class="row">
+
+            <div class="col">
+                <img src="Assets/images/hangman.jpg" class="img-thumbnail float-left portfolio" alt="Hangman Game Link">
+                <div class="row justify-content-center">
+                    <p class="imgHeader col-10">Hangman</p>
                 </div>
-        
-                <div class="flex-container">
-        
-                    <div class="portfolio">
-                        <div class="portfolio-imgs" id="img-1" >
-                            <h3 class="img-header">Hangman</h3>
-                        </div>
-                    </div>
-        
-                    <div class="portfolio">
-                        <div class="portfolio-imgs" id="img-2">
-                            <h3 class="img-header">RPG Game</h3>
-                        </div>
-                    </div> 
-        
-                    <div class="portfolio">
-                        <div class="portfolio-imgs" id="img-3">                    
-                            <h3 class="img-header">Trivia Game</h3>
-                        </div>
-                    </div> 
-        
-                    <div class="portfolio">
-                        <div class="portfolio-imgs" id="img-4">
-                            <h3 class="img-header">Rutgers Info Widget</h3>
-                        </div>
-                    </div>
-        
-                    <div class="portfolio">
-                        <div class="portfolio-imgs" id="img-5">
-                            <h3 class="img-header">Rock, Paper, Sissors</h3>
-                        </div>
-                    </div>                                    
-        
+            </div>
+
+            <div class="col">
+                <img src="Assets/images/rpg.jpg" class="img-thumbnail float-left portfolio" alt="RPG Game Link">
+                <div class="row justify-content-center">
+                    <h3 class="imgHeader col-10">RPG Game</h3>
                 </div>
-       
+            </div>
+
+            <div class="col">
+                <img src="Assets/images/trivia.jpg" class="img-thumbnail float-left portfolio" alt="Trivia Game Link">
+                <div class="row justify-content-center">
+                    <h3 class="imgHeader col-11 align-items">Trivia Game</h3>
+                </div>
+            </div>
+            <div class="col">
+                <img src="Assets/images/widget.jpg" class="img-thumbnail float-left portfolio" alt="Widget Game Link">
+                <div class="row justify-content-center">
+                    <p class="imgHeader col-10">Rutgers Info Widget</p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="Assets/images/rock.jpg" class="img-thumbnail float-left portfolio" alt="Rock Paper Scissor Game Link">
+                <div class="row justify-content-center">
+                    <p class="imgHeader col-10">Rock Paper Scissors</p>
+                </div>
+            </div>
+
+
+
+        </div>
     </div>
 
-    <nav class="navbar fixed-bottom row" id="navbar-footer">
-        <a class="navbar-brand col-12" id="navbar-content" href="#"><i class="far fa-copyright"></i> Copyright Laurie Schroeder 2019</a>
-    </nav>
+    <footer class="foot fixed-bottom">
+        <div class="footContent">
+            <i class="far fa-copyright"></i> Copyright Laurie Schroeder 2019
+        </div>
+    </footer>
 
     <!--Bootstrap JS - Per Bootstap intro page. This goes just before the </body> tag-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
 </body>
+
 </html>
